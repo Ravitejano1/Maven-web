@@ -13,16 +13,6 @@
   <!-- FIXME change it to the project's website -->
   <url>http://maven.apache.org</url>
 	
-<distributionManagement>
-    <repository>
-        <uniqueVersion>false</uniqueVersion>
-        <id>SRE</id>
-        <name>Sidgs-SRE-Releases</name>
-        <url>http://54.224.241.114:8081/repository/Sidgs-SRE-Releases/</url>
-        <layout>default</layout>
-    </repository>
-</distributionManagement>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
