@@ -25,13 +25,13 @@ node{
 	                classifier: '', 
 	                file: 'target/SRE-1.5.war', 
 	                type: 'war'
-	                ]           
-	                groupId: 'Sidgs-SRE', 
-	                nexusUrl: '54.243.2.154:8081', 
-	                nexusVersion: 'nexus3', 
-	                protocol: 'http', 
-	                repository: 'Sidgs-Releases', 
-	                version: '1.5'
+	                ] , 
+			  groupId: 'Sidgs-SRE', 
+	                  nexusUrl: '54.243.2.154:8081', 
+	                  nexusVersion: 'nexus3', 
+	                  protocol: 'http', 
+	                  repository: 'Sidgs-Releases', 
+	                  version: '1.5'
 		}
 	}
 }
