@@ -12,7 +12,7 @@ node{
     
      stage('SonarQube analysis') {       
         withSonarQubeEnv('Sonar-Server-7.8') {
-	    def mavenHome = tool name: "Maven-3.8.6", type: "maven"
+	def mavenHome = tool name: "Maven-3.8.6", type: "maven"
         def mavenCMD = "${mavenHome}/bin/mvn"
        	sh "${mavenCMD} sonar:sonar"    	
     }
@@ -33,7 +33,7 @@ node{
 			    nexusVersion: 'nexus3', 
 			    protocol: 'http', 
 			    repository: 'http://54.224.241.114:8081/repository/Sidgs-SRE-Releases/', 
-			    version: '1.0.0'
+			    version: '3.0.0'
 		}
 	}
 
