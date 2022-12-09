@@ -26,7 +26,7 @@ node{
 	                file: 'target/SRE-1.5.war', 
 	                type: 'war'
 	                ]           
-	                credentialsId: 'Nexuscredentials', 
+	                credentialsId: 'admin', 
 	                groupId: 'Sidgs-SRE', 
 	                nexusUrl: '54.243.2.154:8081', 
 	                nexusVersion: 'nexus3', 
