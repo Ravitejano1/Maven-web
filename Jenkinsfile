@@ -18,7 +18,7 @@ node{
     }
 }
      stage('upload war to nexus'){
-	 	            nexusArtifactUploader artifacts: 
+		nexusArtifactUploader artifacts: 
 			    [
 				    [
 					    artifactId: 'SRE', 
@@ -32,8 +32,8 @@ node{
 			    nexusUrl: '54.224.241.114:8081', 
 			    nexusVersion: 'nexus3', 
 			    protocol: 'http', 
-			    repository: 'http://54.224.241.114:8081/repository/Sidgs-SRE-Releases/', 
-			    version: '3.0.0'
+			    repository: 'Sidgs-SRE-Releases', 
+			    version: '1.0.0'
 		}
 	}
 
