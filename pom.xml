@@ -16,9 +16,9 @@
 <distributionManagement>
     <repository>
         <uniqueVersion>false</uniqueVersion>
-        <id>Sidgs-SRE</id>
-        <name>Sidgs-Releases</name>
-        <url>http://54.224.241.114:8081/repository/Sidgs-Releases/</url>
+        <id>SRE</id>
+        <name>Sidgs-SRE-Releases</name>
+        <url>http://54.224.241.114:8081/repository/Sidgs-SRE-Releases/</url>
         <layout>default</layout>
     </repository>
 </distributionManagement>
