@@ -23,7 +23,7 @@ node{
 				    [
 					    artifactId: 'SRE', 
 					    classifier: '', 
-					    file: 'target/SRE-1.0.0.war', 
+					    file: 'target/SRE.war', 
 					    type: 'war'
 				    ]
 			    ], 
