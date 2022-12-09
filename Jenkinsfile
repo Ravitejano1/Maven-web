@@ -14,7 +14,7 @@ node{
         withSonarQubeEnv('Sonar-Server-7.8') {
 	    def mavenHome = tool name: "Maven-3.8.6", type: "maven"
         def mavenCMD = "${mavenHome}/bin/mvn"
-       	sh "${mavenCMD} sonar:sonar"    	
+       	sh "${mavenCMD} admin:admin123"    	
     }
 }
      stage('upload war to nexus'){
