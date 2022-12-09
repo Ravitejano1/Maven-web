@@ -25,7 +25,7 @@ node{
 	                classifier: '', 
 	                file: 'target/SRE-1.5.war', 
 	                type: 'war'
-	          ], 
+	                ]           
 	                credentialsId: 'Nexuscredentials', 
 	                groupId: 'Sidgs-SRE', 
 	                nexusUrl: '54.243.2.154:8081', 
@@ -33,6 +33,6 @@ node{
 	                protocol: 'http', 
 	                repository: 'Sidgs-Releases', 
 	                version: '1.5'
+		}
 	}
-}
 }
