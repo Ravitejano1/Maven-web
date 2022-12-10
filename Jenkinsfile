@@ -19,22 +19,22 @@ node{
 	}
 	
 		stage('upload war to nexus'){
-		nexusArtifactUploader artifacts: [
-		[
-			artifactId: 'SRE', 
-			classifier: '', 
-			file: 'Maven-web/target/SRE-2.0.0-SNAPSHOT.war', 
-			type: 'war'
-			]
-		],
-			credentialsId: 'nexus3',
-			groupId: 'Sidgs-SRE', 
-			nexusUrl: '35.171.189.204:8081/#browse/browse:Sidgs-Release-repository', 
-			nexusVersion: 'nexus3', 
-			protocol: 'http', 
-			repository: 'Sidgs-Release-repository', 
-			version: '2.0.0-SNAPSHOT'
-		}
-}
+			nexusArtifactUploader artifacts: [
+			[
+				artifactId: 'SRE', 
+				classifier: '', 
+				file: 'Maven-web/target/SRE.war', 
+				type: 'war'
+				]
+			],
+				credentialsId: 'nexus3',
+				groupId: 'Sidgs-SRE', 
+				nexusUrl: '35.171.189.204:8081/#browse/browse:Sidgs-Release-repository', 
+				nexusVersion: 'nexus3', 
+				protocol: 'http', 
+				repository: 'Sidgs-Release-repository', 
+				version: '2.0.0-SNAPSHOT'
+			}
+	}
    
 	
