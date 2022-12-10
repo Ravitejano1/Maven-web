@@ -23,7 +23,7 @@ node{
 				    [
 					    artifactId: 'SRE', 
 					    classifier: '', 
-					    file: 'target/SRE-3.0.0.war', 
+					    file: 'target/SRE-2.0.0.war', 
 					    type: 'war'
 				    ]
 			    ], 
@@ -33,7 +33,7 @@ node{
 			    nexusVersion: 'nexus3', 
 			    protocol: 'http', 
 			    repository: 'Sidgs-SRE-Releases', 
-			    version: '3.0.0-SNAPSHOT'
+			    version: '2.0.0-SNAPSHOT'
 		}
 	}
 
