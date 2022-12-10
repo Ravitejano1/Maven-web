@@ -15,7 +15,7 @@
 	
   <distributionManagement>
      <repository>
-           <id>Nexuscredentials</id>
+           <id>nexus3</id>
            <url>http://54.198.103.101:8081/</url>
      </repository>
   </distributionManagement>
@@ -73,7 +73,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-deploy-plugin</artifactId>
-          <version>2.8.2</version>
+          <version>3.0.0-M1</version>
         </plugin>
         <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
         <plugin>
