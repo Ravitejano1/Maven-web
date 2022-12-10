@@ -29,7 +29,7 @@ node{
 			    ], 
 			    credentialsId: 'Nexuscredentials', 
 			    groupId: 'Sidgs-SRE', 
-			    nexusUrl: '54.224.241.114:8081', 
+			    nexusUrl: '54.198.103.101:8081', 
 			    nexusVersion: 'nexus3', 
 			    protocol: 'http', 
 			    repository: 'Sidgs-SRE-Releases', 
