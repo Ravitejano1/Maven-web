@@ -12,19 +12,28 @@
   <name>SREwar Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://maven.apache.org</url>
-		
-<distributionManagement>
-   	 <repository>
-        	<uniqueVersion>false</uniqueVersion>
-        	<id>Sidgs-Release-repository</id>
-        	<name>Sidgs-Release-repository</name>
-        	<url>35.171.189.204:8081/#browse/browse:Sidgs-Release-repository</url>
-        	<layout>default</layout>
-    	</repository>
- </distributionManagement>
 	
-  
-  <properties>
+<distributionManagement>
+	<repositories>
+        	<repository>
+             	<id>Sidgs-Release-repository</id>
+             	<url>35.171.189.204:8081/#browse/browse:Sidgs-Release-repository/</url>
+            	<layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+</distributionManagement>	
+
+   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
