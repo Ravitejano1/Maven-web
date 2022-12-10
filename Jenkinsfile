@@ -27,7 +27,7 @@ node{
 					    type: 'war'
 				    ]
 			    ], 
-			    credentialsId: 'Nexuscredentials', 
+			    credentialsId: 'nexus3', 
 			    groupId: 'Sidgs-SRE', 
 			    nexusUrl: '54.198.103.101:8081', 
 			    nexusVersion: 'nexus3', 
