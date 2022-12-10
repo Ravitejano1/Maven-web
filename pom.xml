@@ -16,9 +16,9 @@
 <distributionManagement>
    	 <repository>
         	<uniqueVersion>false</uniqueVersion>
-        	<id>Sidgs-SRE</id>
+        	<id>Sidgs-Release-repository</id>
         	<name>Sidgs-Release-repository</name>
-        	<url>file:///home/myfolder/.m2</url>
+        	<url>35.171.189.204:8081/#browse/browse:Sidgs-Release-repository</url>
         	<layout>default</layout>
     	</repository>
  </distributionManagement>
