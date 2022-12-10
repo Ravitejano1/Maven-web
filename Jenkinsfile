@@ -23,13 +23,13 @@ node{
 				    [
 					    artifactId: 'SRE', 
 					    classifier: '', 
-					    file: 'target/SRE-2.0.0-SNAPSHOT.war', 
+					    file: 'Maven-web/target/SRE.war', 
 					    type: 'war'
 				    ]
 			    ], 
 			    credentialsId: 'nexus3', 
 			    groupId: 'Sidgs-SRE', 
-			    nexusUrl: '54.198.103.101:8081', 
+			    nexusUrl: '10.7.1.39', 
 			    nexusVersion: 'nexus3', 
 			    protocol: 'http', 
 			    repository: 'Sidgs-SRE-Releases', 
