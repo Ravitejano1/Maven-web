@@ -17,7 +17,7 @@
    	 <repository>
         	<uniqueVersion>false</uniqueVersion>
         	<id>Sidgs-SRE</id>
-        	<name>Sidgs-Releases</name>
+        	<name>Sidgs-Release-repository</name>
         	<url>file:///home/myfolder/.m2</url>
         	<layout>default</layout>
     	</repository>
