@@ -16,7 +16,7 @@
   <distributionManagement>
      <repository>
            <id>Nexuscredentials</id>
-           <url>http://54.224.241.114:8081/</url>
+           <url>http://54.198.103.101:8081/</url>
      </repository>
   </distributionManagement>
 	
