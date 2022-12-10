@@ -23,7 +23,7 @@ node{
 			[
 				artifactId: 'SRE', 
 				classifier: '', 
-				file: 'Maven-web/target/SRE.war', 
+				file: 'target/SRE.war', 
 				type: 'war'
 				]
 			],
