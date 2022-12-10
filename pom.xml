@@ -14,8 +14,7 @@
   <url>http://maven.apache.org</url>
 	
 <distributionManagement>
-	<repositories>
-        	<repository>
+	<repository>
              	<id>Sidgs-Release-repository</id>
              	<url>35.171.189.204:8081/#browse/browse:Sidgs-Release-repository/</url>
             	<layout>default</layout>
@@ -30,8 +29,7 @@
                 <checksumPolicy>warn</checksumPolicy>
             </snapshots>
         </repository>
-    </repositories>
-</distributionManagement>	
+  </distributionManagement>	
 
    <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
