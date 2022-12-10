@@ -17,23 +17,5 @@ node{
        	sh "${mavenCMD} sonar:sonar"    	
     }
 }
-     stage('upload war to nexus'){
-		nexusArtifactUploader artifacts: 
-			    [
-				    [
-					    artifactId: 'SRE', 
-					    classifier: '', 
-					    file: 'Maven-web/target/SRE.war', 
-					    type: 'war'
-				    ]
-			    ], 
-			    credentialsId: 'nexus3', 
-			    groupId: 'Sidgs-SRE', 
-			    nexusUrl: '10.7.1.39', 
-			    nexusVersion: 'nexus3', 
-			    protocol: 'http', 
-			    repository: 'Sidgs-SRE-Releases', 
-			    version: '2.0.0-SNAPSHOT'
-		}
-	}
-
+   
+	
