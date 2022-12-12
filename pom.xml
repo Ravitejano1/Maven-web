@@ -15,8 +15,8 @@
 	
 <distributionManagement>
 	<repository>
-             	<id>Sidgs-Release-repository</id>
-             	<url>35.171.189.204:8081/#browse/browse:Sidgs-Release-repository/</url>
+             	<id>Sidgsrelease</id>
+             	<url>http://3.94.252.186:8081/repository/Sidgsrelease/</url>
             	<layout>default</layout>
             <releases>
                 <enabled>true</enabled>
