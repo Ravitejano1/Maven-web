@@ -23,14 +23,6 @@
                 <updatePolicy>always</updatePolicy>
                 <checksumPolicy>warn</checksumPolicy>
             </releases>
-            <snapshots>
-		    <id>Sidgssnapshot</id>
-             	    <url>http://3.94.252.186:8081/repository/Sidgssnapshot/</url>
-            	    <layout>default</layout>
-                    <enabled>true</enabled>
-                    <updatePolicy>always</updatePolicy>
-                    <checksumPolicy>warn</checksumPolicy>
-            </snapshots>
         </repository>
   </distributionManagement>	
 
