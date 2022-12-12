@@ -29,10 +29,10 @@ node{
 			],
 				credentialsId: 'nexus3',
 				groupId: 'Sidgs-SRE', 
-				nexusUrl: '35.171.189.204:8081/#browse/browse:Sidgs-Release-repository', 
+				nexusUrl: 'http://3.94.252.186:8081/repository/Sidgsrelease/', 
 				nexusVersion: 'nexus3', 
 				protocol: 'http', 
-				repository: 'Sidgs-Release-repository', 
+				repository: 'Sidgsrelease', 
 				version: '2.0.0-SNAPSHOT'
 			}
 	}
